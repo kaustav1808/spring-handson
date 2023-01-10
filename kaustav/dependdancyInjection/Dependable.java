@@ -1,5 +1,5 @@
 package kaustav.dependdancyInjection;
 
 public class Dependable {
-   public String d = "This is dependable class";
+   public String d = "This is dependable class.";
 }

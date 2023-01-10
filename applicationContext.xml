@@ -20,6 +20,13 @@
       <constructor-arg ref="dependable"></constructor-arg>
     </bean>
     
+    <bean id="SetterDependable" class="kaustav.dependdancyInjection.SetterDependable">
+      <property name="dependable" value="This is the dependable class."/>
+    </bean> 
+    <bean id="SetterDependant" class="kaustav.dependdancyInjection.SetterDependant">
+      <property name="dependant" ref="SetterDependable"/>
+    </bean>
+    
 </beans>
 
 
