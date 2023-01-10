@@ -27,6 +27,7 @@ public class BeanScopeMain {
 		
 		System.out.println("memory location of t2 is: "+ t4);
 
+		context.close();
 	}
 
 }
