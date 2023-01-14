@@ -28,6 +28,8 @@ public class main {
 		System.out.println("memory location of t1 is: "+ t3);
 		
 		System.out.println("memory location of t2 is: "+ t4);
+		
+		Test2 t5 = context.getBean("annotedBean", Test2.class); 
 
 		context.close();
 

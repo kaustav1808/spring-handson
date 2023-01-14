@@ -29,5 +29,11 @@ public class Config {
 	public Test2 test2() {
 		return new Test2();
 	}
+	
+	@Bean
+	public Test2 annotedBean() {
+		System.out.println("This bean is creating from @Bean annotation");
+		return new Test2();
+	}
  
 }
